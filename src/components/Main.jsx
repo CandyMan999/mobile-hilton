@@ -7,7 +7,7 @@ const Main = () => {
         className="exterior"
         style={{ height: "100%", width: "100%", border: "solid 5px white" }}
         src={hotel}
-        alt="exteriot"
+        alt="exterior"
       />
     </div>
   );
