@@ -1,25 +1,27 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import Navbar from "./components/Navbar";
+import Main from "./components/Main";
+import Select from "./components/Select";
+import Address from "./components/Address";
+import backGround from "./images/background.png";
+
+import "./App.css";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div
+        style={{
+          backgroundImage: `url(${backGround})`,
+          height: "100vh",
+          width: "100vw"
+        }}
+        className="App"
+      >
+        <Navbar />
+        <Main />
+        <Address />
+        <Select />
       </div>
     );
   }
