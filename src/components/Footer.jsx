@@ -6,9 +6,7 @@ const Footer = () => (
       backgroundColor: "#282323",
       borderTop: "solid 1px grey",
       borderBottom: "solid 1px grey",
-      position: "absolute",
-      width: "100%",
-      bottom: "0px"
+      marginTop: "120px"
     }}
     className="footer text-center"
   >
